@@ -1,0 +1,29 @@
+.header {
+  .top-bar {
+    .top-bar-left {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.switch {
+  .menu-icon {
+    color: transparent;
+    font-size: 2rem;
+    line-height: 1;
+    &::after {
+      top: 11px;
+    }
+  }
+  input:checked ~ .menu-icon {
+    color: #fff;
+    &:hover {
+      color: #cacaca;
+    }
+    &::after {
+      content: none;
+    }
+  }
+}
+

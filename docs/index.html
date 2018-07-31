@@ -13,9 +13,12 @@
     <header class="header"><div class="top-bar">
     <div class="top-bar-left">
         <a class="menu-text" href="index.html">logo</a>
-        <span data-responsive-toggle="header-menu">
-            <button class="menu-icon" type="button" data-hide-for="medium" data-toggle="header-menu"></button>
-        </span>
+        <div class="switch" data-responsive-toggle="header-menu" data-hide-for="medium">
+            <input class="switch-input" id="menuSwitch" type="checkbox" name="menuSwitch" data-toggle="header-menu">
+            <label class="menu-icon" for="menuSwitch">
+                <span aria-hidden="true">&times;</span>
+            </label>
+        </div>
     </div>
     <div class="top-bar-right" id="header-menu" data-animate="slide-in-right slide-out-right">
         <ul class="dropdown menu vertical medium-horizontal" data-responsive-menu="drilldown medium-dropdown">
@@ -54,12 +57,13 @@
         </ul>
     </div>
 </div>
+
 </header>
 
     
     <div class="index-menu">
       <ul class="menu vertical">
-        <li class="aos-init" data-aos="zoom-in-up" data-aos-delay="0"><a href="" target="_blank">Home</a></li>
+        <li class="aos-init" data-aos="zoom-in-up" data-aos-delay="0"><a href="#" target="_blank">Home</a></li>
         <li class="aos-init" data-aos="zoom-in-up" data-aos-delay="250"><a href="about.html" target="_blank">About</a></li>
         <li class="aos-init" data-aos="zoom-in-up" data-aos-delay="500"><a href="events.html" target="_blank">Events</a></li>
         <li class="aos-init" data-aos="zoom-in-up" data-aos-delay="750"><a href="menu.html" target="_blank">Menu</a></li>
