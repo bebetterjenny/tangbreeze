@@ -11,9 +11,9 @@
   .menu-icon {
     color: transparent;
     font-size: 2rem;
-    line-height: 1;
+    line-height: 0.3;
     &::after {
-      top: 11px;
+      //top: 11px;
     }
   }
   input:checked ~ .menu-icon {

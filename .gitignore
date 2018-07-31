@@ -5,3 +5,4 @@ bower_components
 dist
 *.swp
 .idea/*
+.idea/workspace.xml
