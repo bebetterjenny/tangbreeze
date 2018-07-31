@@ -3,27 +3,34 @@
     .top-bar-left {
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
   }
+
+  .switch {
+    height: unset;
+    margin-bottom: unset;
+    .menu-icon {
+      color: transparent;
+      font-size: 2rem;
+      line-height: 0.3;
+      &::after {
+        //top: 11px;
+      }
+    }
+    input:checked ~ .menu-icon {
+      color: #fff;
+      &:hover {
+        color: #cacaca;
+      }
+      &::after {
+        content: none;
+      }
+    }
+  }
+
+
 }
 
-.switch {
-  .menu-icon {
-    color: transparent;
-    font-size: 2rem;
-    line-height: 0.3;
-    &::after {
-      //top: 11px;
-    }
-  }
-  input:checked ~ .menu-icon {
-    color: #fff;
-    &:hover {
-      color: #cacaca;
-    }
-    &::after {
-      content: none;
-    }
-  }
-}
+
 
