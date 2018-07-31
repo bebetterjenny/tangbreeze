@@ -1,5 +1,18 @@
 .header {
+  height: 100vh;
+  background-image: url('../img/banners/banner-home.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @include breakpoint(medium) {
+    height: 80vh;
+  }
+
   .top-bar {
+    background-color: transparent;
+    @include breakpoint(medium) {
+      background-color: $secondary-color;
+    }
     .top-bar-left {
       display: flex;
       justify-content: space-between;

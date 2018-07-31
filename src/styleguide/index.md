@@ -140,8 +140,8 @@ As you've probably noticed in the examples above, you have access to a small, me
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #3adb76"></span>
-      #3adb76
+      <span style="background: #191606"></span>
+      #191606
     </div>
   </div>
   <div class="column">
