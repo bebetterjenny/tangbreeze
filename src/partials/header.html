@@ -10,8 +10,8 @@
     </div>
     <div class="top-bar-right" id="header-menu" data-animate="slide-in-right slide-out-right">
         <ul class="dropdown menu vertical medium-horizontal" data-responsive-menu="drilldown medium-dropdown">
-            <li {{#ifpage 'index'}}class="is-active"{{/ifpage}}><a href="index.html">Home</a></li>
-            <li {{#ifpage 'about'}}class="is-active"{{/ifpage}}><a href="about.html">About</a></li>
+            <li class="{{#ifpage 'index'}}is-active{{/ifpage}}"><a href="index.html">Home</a></li>
+            <li class="{{#ifpage 'about'}}is-active{{/ifpage}}"><a href="about.html">About</a></li>
             <li>
                 <a href="#">Events</a>
                 <ul class="vertical menu">
@@ -46,6 +46,15 @@
         </ul>
     </div>
 </div>
+
+{{#ifpage 'index'}}
+    <div class="banner-text">
+        <p>RETHINK YOUR RELATIONSHIP WITH FOOD</p>
+        <p>TASTE. ENJOY. INSPIRE</p>
+        <a class="button secondary" href="#">Secondary</a>
+    </div>
+{{/ifpage}}
+
 
 
 
