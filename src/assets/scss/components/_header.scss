@@ -26,6 +26,9 @@
         background-color: transparent;
       }
     }
+    .is-active > a {
+      color: $medium-gray;
+    }
     ul {
       background-color: transparent;
     }
@@ -36,9 +39,6 @@
     .dropdown.menu{
       .is-dropdown-submenu-parent > a::after {
         border-color: #fff transparent transparent;
-      }
-      .is-active > a {
-        color: #fff;
       }
       & > li.opens-left > .is-dropdown-submenu {
         top: calc(100% + 0.5rem);
