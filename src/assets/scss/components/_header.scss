@@ -9,16 +9,36 @@
   }
 
   .top-bar {
+    padding: 0;
     background-color: transparent;
     @include breakpoint(medium) {
+      padding: 0.5rem;
       background-color: $secondary-color;
     }
     .top-bar-left {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 0.5rem;
+      background-color: $secondary-color;
+      @include breakpoint(medium) {
+        padding: 0;
+        background-color: transparent;
+      }
+    }
+    a {
+      color: #fff;
+      background-color: $dark-gray;
+      @include breakpoint(medium) {
+        background-color: transparent;
+      }
+    }
+    ul {
+      background-color: transparent;
     }
   }
+
+
 
   .switch {
     height: unset;
