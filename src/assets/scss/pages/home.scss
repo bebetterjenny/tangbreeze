@@ -2,6 +2,29 @@
   text-align: center;
 }
 
+.featured-menu {
+  	text-align: center;
+  		.featured-menu-container {
+  			width: 80%;
+  			margin: auto;
+  		.cell {
+  			width: 25%;
+  		}
+  	}
+}
+
 .featured-events {
-  text-align: center;
+	.featured-event {
+		height: 400px;
+		background-image: url('../img/banners/banner-home.jpg');
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: cover;
+		.featured-event-banner {
+			width: 30%;
+			margin: auto;
+			text-align: center;
+			color: #fff;
+		}
+	}
 }
