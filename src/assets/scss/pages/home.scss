@@ -1,30 +1,62 @@
 .welcome-text {
   text-align: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 60px auto;
 }
 
 .featured-menu {
+  margin-bottom: 80px;
   	text-align: center;
   		.featured-menu-container {
   			width: 80%;
-  			margin: auto;
+  			margin: 2rem auto auto;
   		.cell {
-  			width: 25%;
+  			width: 30%;
+        img {
+          margin-bottom: 1rem;
+        }
   		}
   	}
 }
 
 .featured-events {
 	.featured-event {
-		height: 400px;
-		background-image: url('../img/banners/banner-home.jpg');
-    	background-repeat: no-repeat;
-    	background-position: center;
-    	background-size: cover;
+    text-align: center;
 		.featured-event-banner {
-			width: 30%;
+			width: 100%;
 			margin: auto;
-			text-align: center;
+      padding-top: 120px;
+      padding-bottom: 120px;
 			color: #fff;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
 		}
+    &:first-of-type {
+      .featured-event-banner {
+        background-image: url('../img/events/jolene-hardy2.jpg');
+      }
+    }
+    &:nth-of-type(2) {
+      .featured-event-banner {
+        background-image: url('../img/events/rawpixel-2.jpg');
+      }
+    }
+    .featured-event-description {
+      width: 80%;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .featured-event-profile {
+      width: 80%;
+      max-width: 1200px;
+      margin: auto;
+      .row.align-spaced .columns {
+        width: 49%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    }
 	}
 }
