@@ -82,14 +82,11 @@
 
 .index {
   .header {
-    height: 90vh;
+    height: 88vh;
     background-image: url('../img/banners/banner-home.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    @include breakpoint(medium) {
-      height: 80vh;
-    }
 
     .banner-text {
       position: absolute;
@@ -112,8 +109,8 @@
         font-size: 1rem;
       }
     }
+
   }
 }
-
 
 
