@@ -6,7 +6,6 @@
 }
 
 .featured-menu {
-  margin-bottom: 80px;
   	text-align: center;
   		.featured-menu-container {
   			width: 80%;
@@ -23,6 +22,7 @@
 .featured-events {
 	.featured-event {
     text-align: center;
+    margin-top: 80px;
 		.featured-event-banner {
 			width: 100%;
 			margin: auto;
@@ -44,17 +44,15 @@
       }
     }
     .featured-event-description {
-      width: 80%;
-      max-width: 1200px;
-      margin: auto;
+      width: 60%;
+      max-width: 1100px;
+      margin: 50px auto;
     }
     .featured-event-profile {
       width: 80%;
       max-width: 1200px;
       margin: auto;
-      .row.align-spaced .columns {
-        width: 49%;
-        margin-top: 50px;
+      .row .columns {
         margin-bottom: 50px;
       }
     }
